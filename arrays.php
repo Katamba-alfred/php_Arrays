@@ -53,6 +53,15 @@ $days = array(1 => 'Sun','Mon','Tue','Wed'); //Indexes the first value of the ar
 echo "Days of the week:
 	  <p>The Third day of the week is <b>$days[3]</b><br>
 	    The First day of the week is <b>$days[1]</b></p>";
+
+//Creating an array of sequential numbers. (using the range() function)
+$fifteen = range(1, 15);
+echo "<p><b>The numbers are:</b></p><br>";
+//foreach loop
+foreach ($fifteen as $key => $value) {
+	echo "$value";
+}
+
 ?>
 
 </body>
