@@ -48,6 +48,11 @@ $student[2]   <b>$mark[2]</b><br>
 $student[3]   <b>$mark[3]</b><br>
 </p>";
 
+//Non-zero indexed arrays
+$days = array(1 => 'Sun','Mon','Tue','Wed'); //Indexes the first value of the array to 1 not 0
+echo "Days of the week:
+	  <p>The Third day of the week is <b>$days[3]</b><br>
+	    The First day of the week is <b>$days[1]</b></p>";
 ?>
 
 </body>
